@@ -91,5 +91,3 @@ PatchBot examines whether a vulnerable package is a direct or transitive depende
 Instead of simply displaying a “Critical” warning, PatchBot explains why a vulnerability deserves attention or why it may be a lower priority. This gives developers evidence they can review rather than expecting them to blindly trust an automated decision.
 
 PatchBot is also designed as a lightweight CLI tool that fits naturally into developers’ existing workflows. Its key distinction is therefore its combination of vulnerability detection, project-specific context, transparent risk prioritization, and developer-friendly explanations—helping small teams focus their limited security time on the vulnerabilities most likely to matter.
-
-PatchBot might use Golang for the core logic
